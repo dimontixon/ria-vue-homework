@@ -19,6 +19,11 @@ export default {
   components: {
     AddUser,
     UserList
+  },
+  data() {
+    return {
+      users: []
+    }
   }
 }
 </script>

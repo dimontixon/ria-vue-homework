@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Error />
     <form>
       <div class="row g-3">
         <div class="col-sm-5">
@@ -23,8 +24,10 @@
 </template>
 
 <script>
+import Error from "@/components/Error";
 export default {
-  name: "AddUser"
+  name: "AddUser",
+  components: {Error}
 }
 </script>
 
