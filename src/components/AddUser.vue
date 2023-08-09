@@ -24,7 +24,7 @@
   </div>
 
 </template>
-
+ggg
 <script>
 import Error from "@/components/Error";
 export default {
